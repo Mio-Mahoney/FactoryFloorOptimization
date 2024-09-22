@@ -69,19 +69,20 @@ public class GUI extends JPanel {
     public static void main(String[] args) {
         // Example factory layout: Each number represents the size factor of the box
         int[][] layout = {
-                {0, 0, 0, 2, 2, 0}, //2x2 is one machine
-                {0, 1, 0, 2, 2, 0},
-                {0, 0, 0, 0, 0, 0},
-                {0, 3, 3, 3, 0, 0},
-                {0, 3, 3, 3, 2, 2},//3x3 is one machine
-                {0, 3, 3, 3, 2, 2},
-                {0, 0, 0, 0, 0, 0},
-                {0, 0, 2, 2, 0, 0},
-                {0, 4, 4, 4, 4, 0},
-                {0, 4, 4, 4, 4, 0}, //4x4 is one machine
-                {0, 4, 4, 4, 4, 0},
-                {0, 4, 4, 4, 4, 1} //1x1 is one machine
-
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 2, 2, 0, 0, 0}, //2x2 is one machine
+                {0, 0, 0, 1, 0, 2, 2, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 3, 3, 3, 0, 0, 0, 0},
+                {0, 0, 0, 3, 3, 3, 2, 2, 0, 0},//3x3 is one machine
+                {0, 0, 0, 3, 3, 3, 2, 2, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 2, 2, 0, 0, 0, 0},
+                {0, 0, 0, 4, 4, 4, 4, 0, 0, 0},
+                {0, 0, 0, 4, 4, 4, 4, 0, 0, 0}, //4x4 is one machine
+                {0, 0, 0, 4, 4, 4, 4, 0, 0, 0},
+                {0, 0, 0, 4, 4, 4, 4, 1, 0, 0}, //1x1 is one machine
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         };
 
         JFrame frame = new JFrame("Factory Layout");
